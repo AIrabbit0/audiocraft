@@ -394,7 +394,7 @@ def ui(**kwargs):
                             include_settings = gr.Checkbox(label="Add Settings to background", value=True, interactive=True)
                     with gr.Row():
                         title = gr.Textbox(label="Title", value="UnlimitedMusicGen", interactive=True)
-                        settings_font = gr.Text(label="Settings Font", value="./assets/arial.ttf", interactive=True)
+                        settings_font = gr.Text(label="Settings Font", value="arial.ttf", interactive=True)
                         settings_font_color = gr.ColorPicker(label="Settings Font Color", value="#c87f05", interactive=True)
                 with gr.Accordion("Expert", open=False):
                     with gr.Row():
